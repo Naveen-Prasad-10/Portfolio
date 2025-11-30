@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- WEBSITE TITLE -->
+    <title>Your Name | Portfolio</title>
+
+    <!-- MAIN CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONT IMPORT -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===== HEADER + NAVIGATION ===== -->
+    <header>
+        <nav class="container">
+            <!-- REPLACE WITH YOUR INITIALS OR LOGO -->
+            <div class="logo">YourLogo</div>
+
+            <div class="nav-links">
+                <a href="#hero">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-toggle" id="themeToggle">🌙 Dark Mode</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="hero" class="hero">
+        <div class="container">
+
+            <!-- OPTIONAL IMAGE / EMOJI / ICON -->
+            <div class="hero-img">💻</div>
+
+            <!-- YOUR FULL NAME -->
+            <h1>Your Name</h1>
+
+            <!-- SHORT TAGLINE -->
+            <p class="tagline">Your Role | Your Specialty</p>
+
+            <!-- ABOUT YOU SUMMARY -->
+            <p>
+                <!-- Write a short introduction here -->
+                Short intro about your skills, current work and interests.
+            </p>
+
+            <!-- SOCIAL LINKS (UPDATE URLs) -->
+            <div class="social-links">
+                <a href="mailto:yourmail@gmail.com">📧 Email</a>
+                <a href="https://www.linkedin.com/yourprofile" target="_blank">💼 LinkedIn</a>
+                <a href="https://github.com/yourgithub" target="_blank">💻 GitHub</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+
+            <div class="skills-grid">
+
+                <!-- Copy/remove categories as needed -->
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <!-- Add/remove your skills -->
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Java</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Front-End Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">React</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Back-End & Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+
+                <!-- You can add more categories if needed -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects">
+        <div class="container">
+
+            <h2 class="section-title">Featured Projects</h2>
+
+            <div class="projects-wrapper">
+                <div class="projects-carousel" id="projectsCarousel">
+
+                    <!-- ==== PROJECT TEMPLATE (copy to add more) ==== -->
+                    <div class="project-card">
+                        <h3>Project Name</h3>
+                        <p>Short description of what the project does.</p>
+
+                        <!-- Tech used -->
+                        <div class="project-tech">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Node</span>
+                        </div>
+                    </div>
+                    <!-- ====== END PROJECT ====== -->
+
+                </div>
+            </div>
+
+            <!-- Carousel Navigation (Keep as-is) -->
+            <div class="carousel-nav">
+                <button class="carousel-btn" id="prevBtn">←</button>
+                <div class="carousel-indicators" id="indicators"></div>
+                <button class="carousel-btn" id="nextBtn">→</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ===== ACHIEVEMENTS ===== -->
+    <section id="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Recognition</h2>
+
+            <div class="achievements-grid">
+
+                <!-- Example Achievement -->
+                <div class="achievement-card">
+                    <h3>🏆 Award Title</h3>
+                    <p>Short description</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== RESUME BUTTON ===== -->
+    <section class="resume-section">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+
+            <!-- Replace with your resume PDF -->
+            <a href="Resume.pdf" class="resume-btn" download>
+                📄 Download Resume
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <p>Write a small contact invitation text here</p>
+
+            <div class="social-links">
+                <!-- Update links -->
+                <a href="mailto:yourmail@gmail.com">📧 Email Me</a>
+                <a href="https://linkedin.com/yourprofile" target="_blank">💼 LinkedIn</a>
+                <a href="https://github.com/yourgithub" target="_blank">💻 GitHub</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. Built with passion.</p>
+        </div>
+    </footer>
+
+
+    <!-- ===== SCROLL TO TOP BUTTON ===== -->
+    <div class="scroll-to-top" id="scrollTopBtn">↑</div>
+
+    <!-- MAIN JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
